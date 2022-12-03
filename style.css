@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: rgb(94, 10, 228);
+}
+
+.container{
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 103%;
+    margin: 0.3rem;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+h4{
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    color: rgb(108, 94, 94);
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.input{
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: rgb(244, 255, 255);
+}
+
+
+input:focus:valid,
+input:focus-within:valid{
+    border: 1px solid rgb(25, 240, 9);
+    color: rgb(57, 241, 84);
+}
+
+input:focus:invalid,
+input:focus-within:invalid{
+    border: 1px solid rgb(240, 9, 9);
+    color: rgb(241, 57, 57);
+}
+
+span{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    text-align: left;
+    width: 100%;
+    font-weight: bolder;
+}
+
+a:focus,
+a:hover{
+    color: rgb(82, 82, 233);
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a:visited{
+    color: rgb(220, 20, 203);
+}
+
+button{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: rgb(168, 73, 223);
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: rgb(94, 16, 167);
+}
+
+fieldset{
+    text-align: left;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+}
+
+legend{
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
